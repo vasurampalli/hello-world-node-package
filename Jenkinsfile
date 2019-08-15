@@ -25,5 +25,20 @@ pipeline {
          sh 'npm test'
       }
     }
+    stage('build') {
+      steps {
+         sh 'npm build'
+      }
+    }
+    stage('Deploy') {
+      steps {
+         sh 'npm deploy'
+      }
+    }  
+    stage('start') {
+      steps {
+         sh 'npm start'
+      }
+    }
   }
 }
