@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Creating Node Package. This is a simple exmaple of creating node pakcage.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "keywords": [
     "node",
     "package",
