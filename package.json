@@ -24,14 +24,14 @@
     "khan",
     "beginners"
   ],
-  "author": "Kaleem Khan",
+  "author": "srinivas Rampalli",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/webrolls/hello-world-node-package.git"
+    "url": "https://github.com/vasurampalli/hello-world-node-package.git"
   },
   "bugs": {
-    "url": "https://github.com/webrolls/hello-world-node-package/issues"
+    "url": "https://github.com/vasurampalli/hello-world-node-package/issues"
   },
-  "homepage": "https://github.com/webrolls/hello-world-node-package#readme"
+  "homepage": "https://github.com/vasurampalli/hello-world-node-package#readme"
 }
