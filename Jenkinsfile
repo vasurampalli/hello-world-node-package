@@ -33,6 +33,7 @@ pipeline {
     stage('start') {
       steps {
          sh 'npm start'
+         sh 'npm -g install forever'
       }
     }
   }
