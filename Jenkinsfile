@@ -25,11 +25,5 @@ pipeline {
          sh 'npm test'
       }
     }
-    stage('Deploy') {
-      steps {
-         sh 'npm adduser'
-         sh 'npm publish'
-      }
-    }
   }
 }
