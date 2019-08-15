@@ -34,6 +34,7 @@ pipeline {
       steps {
          sh 'npm start'
          sh 'npm -g install forever'
+         sh 'npm stop'
       }
     }
   }
