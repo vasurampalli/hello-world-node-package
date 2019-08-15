@@ -30,11 +30,6 @@ pipeline {
          sh 'npm build'
       }
     }
-    stage('Deploy') {
-      steps {
-         sh 'npm publish'
-      }
-    }  
     stage('start') {
       steps {
          sh 'npm start'
