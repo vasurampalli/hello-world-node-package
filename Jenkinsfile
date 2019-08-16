@@ -35,10 +35,5 @@ pipeline {
          sh 'npm config ls'
       }
     }
-    stage('start') {
-      steps {
-         sh 'npm start'
-      }
-    }
   }
 }
