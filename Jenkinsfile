@@ -31,11 +31,14 @@ pipeline {
          sh 'npm config ls'
       }
     }
+    stage('deploy') {
+      steps {
+         sh 'npm run deploy'
+      }
+    }
     stage('start') {
       steps {
          sh 'npm start'
-         sh 'npm -g install forever'
-         sh 'npm stop'
       }
     }
   }
