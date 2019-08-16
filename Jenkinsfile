@@ -33,7 +33,7 @@ pipeline {
     }
     stage('deploy') {
       steps {
-         sh 'npm run deploy'
+         sh 'npm deploy'
       }
     }
     stage('start') {
