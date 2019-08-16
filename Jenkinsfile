@@ -28,12 +28,11 @@ pipeline {
     stage('build') {
       steps {
          sh 'npm build'
-         sh 'npm config ls'
       }
     }
     stage('deploy') {
       steps {
-         sh 'npm deploy'
+         sh 'npm config ls'
       }
     }
     stage('start') {
